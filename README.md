@@ -30,8 +30,18 @@
 |------|------|------|
 | [升级应急手册](docs/upgrade-playbook.md) | 升级前备份 + 危机恢复流程 | ⭐⭐⭐⭐⭐ |
 | [Agent 团队治理](docs/agent-management.md) | 身份认证 + 红线准则 + 惩罚机制 | ⭐⭐⭐⭐⭐ |
+| [安全最佳实践](docs/security-best-practices.md) | 权限管理 + 敏感信息脱敏 | ⭐⭐⭐⭐⭐ |
 | [技能共享机制](docs/skill-sharing.md) | 全局/局部技能划分 + 继承规则 | ⭐⭐⭐⭐ |
+| [GitHub 工作流规范](docs/github-workflow.md) | Fork/PR 流程 + 提交规范 | ⭐⭐⭐⭐ |
 | [v0.0.7 → v0.1.0 迁移指南](docs/migration-v0.0.7-to-v0.1.0.md) | 单Agent到多Agent的实战迁移 | ⭐⭐⭐⭐ |
+
+### 部署指南
+
+| 文档 | 说明 |
+|------|------|
+| [Windows 环境最佳实践](docs/windows-best-practices.md) | 编码问题 + 路径处理 + SSL |
+| [Ollama 本地部署](docs/ollama-local-deployment.md) | 本地 LLM + Embedding 配置 |
+| [企业微信接入](docs/wecom-integration.md) | 智能机器人 vs 企业应用对比 |
 
 ### 工具脚本
 
