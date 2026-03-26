@@ -45,7 +45,7 @@
 # 伪代码示例
 AUTH_USERS = {
     "console": ["*"],           # 控制台所有用户
-    "wecom": ["HI2044"],        # 企业微信指定用户
+    "wecom": ["YOUR_USER_ID"],    # 企业微信指定用户
 }
 
 def check_permission(channel, user_id):
@@ -84,13 +84,13 @@ def check_permission(channel, user_id):
 ### 示例
 
 ```json
-// ❌ 错误
+// ❌ 错误（泄露敏感信息）
 {
-  "api_key": "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",
+  "api_key": "tvly-dev-your-real-api-key-here",
   "base_url": "http://192.168.1.100:8080"
 }
 
-// ✅ 正确
+// ✅ 正确（使用占位符）
 {
   "api_key": "your-api-key-here",
   "base_url": "http://your-server:8080"

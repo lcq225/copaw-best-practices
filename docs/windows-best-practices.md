@@ -116,8 +116,8 @@ path = r"D:\Users\YourName\Documents\.copaw\config.json"
 
 **避免硬编码路径：**
 ```python
-# ❌ 不好
-path = "D:\\Users\\Siva\\Documents\\.copaw\\config.json"
+# ❌ 不好 - 硬编码路径暴露用户信息
+path = "D:\\Users\\YourName\\Documents\\.copaw\\config.json"
 
 # ✅ 好 - 使用环境变量或相对路径
 import os

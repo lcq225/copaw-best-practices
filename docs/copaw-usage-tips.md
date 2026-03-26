@@ -116,7 +116,7 @@ preferences = mem.recall_by_category("preference")
 important = mem.recall_by_importance(min_importance=0.8)
 
 # 实体关系搜索
-network = mem.associate("Mr Lee", depth=1)
+network = mem.associate("用户名", depth=1)
 ```
 
 ---
@@ -377,7 +377,7 @@ D:\CoPaw\OB-CoPaw\
 
 ```python
 # 检查用户权限
-if channel not in ['console', 'wecom:HI2044']:
+if channel not in ['console', 'wecom:YOUR_USER_ID']:
     return "抱歉，您没有权限执行此操作。"
 ```
 
