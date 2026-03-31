@@ -40,8 +40,8 @@ def init_database():
     user_facts = [
         ("用户名字是 Mr Lee", 0.95, "identity"),
         ("用户年龄 43 岁", 0.85, "identity"),
-        ("用户公司在山东海科化工集团", 0.95, "identity"),
-        ("用户部门是卓越与智能部", 0.85, "identity"),
+        ("用户在某大型化工集团工作", 0.95, "identity"),
+        ("用户部门是 IT 相关部门", 0.85, "identity"),
         ("用户职业是 IT 相关工作，负责智能化、数字化转型", 0.85, "identity"),
         ("用户偏好专业、高效、透明的工作方式", 0.8, "preference"),
         ("用户重视闭环和可追溯性", 0.8, "preference"),
