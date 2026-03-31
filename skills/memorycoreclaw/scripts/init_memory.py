@@ -106,9 +106,9 @@ def init_database():
     print("📝 写入实体关系...")
     
     relations = [
-        ("Mr Lee", "works_at", "海科化工"),
-        ("Mr Lee", "department", "卓越与智能部"),
-        ("海科化工", "located_in", "山东东营"),
+        ("Mr Lee", "works_at", "某化工集团"),
+        ("Mr Lee", "department", "IT 部门"),
+        ("某化工集团", "located_in", "山东"),
         ("CoPaw", "developed_by", "阿里云 AgentScope 团队"),
         ("MemoryCoreClaw", "developed_by", "Mr Lee"),
         ("MemoryCoreClaw", "github", "https://github.com/lcq225/MemoryCoreClaw"),
@@ -140,7 +140,7 @@ def init_database():
     print("📝 写入用户持仓信息...")
     
     holdings = [
-        ("用户持有股票 海科新源(301292)", 0.7, "holding"),
+        ("用户持有股票 某股票 A(301292)", 0.7, "holding"),
         ("用户持有股票 弘元绿能(603185)", 0.7, "holding"),
         ("用户持有 ETF 航天ETF(159227)", 0.7, "holding"),
         ("用户持有股票 顺丰控股(002352)", 0.7, "holding"),

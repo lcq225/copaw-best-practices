@@ -70,7 +70,7 @@ mem = Memory(db_path=r"你的路径\.copaw\.agent-memory\memory.db")
 
 ```python
 # 基础用法
-mem.remember("Mr Lee 在海科化工工作", importance=0.9)
+mem.remember("Mr Lee 在某大型化工集团工作", importance=0.9)
 
 # 带分类和情感
 mem.remember(
@@ -85,7 +85,7 @@ mem.remember(
 
 ```python
 # 关键词搜索
-results = mem.recall("海科", limit=5)
+results = mem.recall("工作", limit=5)
 
 # 按分类搜索
 results = mem.recall_by_category("preference")
@@ -109,8 +109,8 @@ mem.learn(
 ### 建立关系
 
 ```python
-mem.relate("Mr Lee", "works_at", "海科集团")
-mem.relate("海科集团", "located_in", "东营")
+mem.relate("Mr Lee", "works_at", "某化工集团")
+mem.relate("某化工集团", "located_in", "山东")
 
 # 查询关系
 relations = mem.get_relations("Mr Lee")

@@ -87,7 +87,7 @@ def check_permission(channel, user_id):
 // ❌ 错误（泄露敏感信息）
 {
   "api_key": "tvly-dev-your-real-api-key-here",
-  "base_url": "http://192.168.1.100:8080"
+  "base_url": "http://your-server:8080"
 }
 
 // ✅ 正确（使用占位符）
