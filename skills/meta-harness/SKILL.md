@@ -5,6 +5,8 @@ description: Agent 输出质量评估与经验回溯系统 - 自动评估+经验
 
 # Meta-Harness
 
+> GitHub: https://github.com/lcq225/meta-harness
+
 > 基于斯坦福论文 Meta-Harness 理念的 Agent 质量保障系统
 
 ## 概述
