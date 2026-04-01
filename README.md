@@ -68,6 +68,7 @@
 | 技能 | 说明 |
 |------|------|
 | [MemoryCoreClaw](skills/memorycoreclaw/) | 类人脑记忆系统，支持事实/教训/关系存储 |
+| [Meta-Harness](skills/meta-harness/) | Agent 输出质量评估与经验回溯系统 |
 
 ## 🚀 快速开始
 
@@ -134,6 +135,16 @@ cp templates/* .copaw/workspaces/your-new-agent/
 - 事实记忆：存储知识点
 - 教训记忆：避免重复犯错
 - 关系记忆：记住人和事
+
+### 5. Agent 质量保障
+
+> **问题：** 如何评估 Agent 输出质量？经验如何复用？
+
+**方案：** Meta-Harness 系统
+- 自动评估：多维度评分（正确性/完整性/效率/安全性等）
+- 经验存储：SQLite 结构化存储所有任务
+- 智能索引：高/低分经验自动存记忆系统
+- 统计查询：成功率、工具效果分析
 
 ## 🤝 贡献
 
