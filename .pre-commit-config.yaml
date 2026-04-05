@@ -1,0 +1,26 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-secrets
+        name: Check for sensitive files
+        entry: python "D:\\CoPaw\\.copaw\\workspaces\\default\\temp\\check_secrets.py"
+        language: system
+        pass_filenames: false
+
+      - id: check-gitignore
+        name: Check .gitignore
+        entry: python "D:\\CoPaw\\.copaw\\workspaces\\default\\temp\\check_gitignore.py"
+        language: system
+        pass_filenames: false
+
+      - id: check-pypirc
+        name: Check .pypirc files
+        entry: python "D:\\CoPaw\\.copaw\\workspaces\\default\\temp\\check_pypirc.py"
+        language: system
+        pass_filenames: false
+
+      - id: check-env-files
+        name: Check .env files
+        entry: python "D:\\CoPaw\\.copaw\\workspaces\\default\\temp\\check_env_files.py"
+        language: system
+        pass_filenames: false
