@@ -54,4 +54,13 @@ credentials.json
 # Backup files
 *.bak
 *.backup
-backup/
+backup/-e "\n# 敏感配置\n.pypirc\n.env\n.env.local\n.env.production" 
+
+# Sensitive files (CRITICAL!)
+*.pypirc
+*.env
+*.key
+*.pem
+_secret
+_token
+_password
